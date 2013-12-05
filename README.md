@@ -1,8 +1,9 @@
-Forked from user/debop's [hibernate-redis][hibernate-redis], same but without multiple pom.xml's, no tests, and without spring-core or tomcat dependencies.
+Forked from user/debop's [hibernate-redis][hibernate-redis], same but without multiple pom.xml's, no tests, and without spring-core or tomcat dependencies. Also, hibernate-redis.properties has been assumed to be in persistence.xml.
 
 [hibernate-redis]: https://github.com/debop/hibernate-redis
 
 Import these:
+
 `import org.hibernate.annotations.{CacheConcurrencyStrategy, Cache}`
 
 Add this to the top of the class:
